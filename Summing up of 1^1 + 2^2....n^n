@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int Series(int n)
+{
+    return (n * (n + 1) * (2 * n + 1)) / 6;
+}
+int main()
+{
+    int n = 3;
+    int res = Series(n);
+    cout<<res<<endl;
+}
